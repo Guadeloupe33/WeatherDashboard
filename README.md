@@ -1,49 +1,47 @@
 # Weather Dashboard
 
-### URL : https://sylviaprabudy.github.io/weather-dashboard/
+## Application Screenshot
 
-## Description
-A simple web application that allows users to search for a city to get the current weather and 5 day forecast. Cities that users previously looked up will be saved in their local storage.
-
-## User Story
-```
-- AS A traveler
-- I WANT to see the weather outlook for multiple cities
-- SO THAT I can plan a trip accordingly
-```
-
-## Acceptance Criteria
-```
-- GIVEN a weather dashboard with form inputs
-- WHEN I search for a city
-- THEN I am presented with current and future conditions for that city and that city is added to the search history
-- WHEN I view current weather conditions for that city
-- THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index
-- WHEN I view the UV index
-- THEN I am presented with a color that indicates whether the conditions are favorable, moderate, or severe
-- WHEN I view future weather conditions for that city
-- THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity
-- WHEN I click on a city in the search history
-- THEN I am again presented with current and future conditions for that city
-```
-
-## Usage
-- This weather dashboard allows users to search for a city to get the current weather and 5 day forecast.
-- It will display the the city name, the date, an icon representation of weather conditions, the temperature, the humidity, the wind speed, and the UV index.
-- The UV index will be color coded. Whether the conditions are favorable, moderate, or severe.
-- With a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity.
-- Search history will be saved in local storage.
-- This weather daskboard app is mobile compatible.
-
-## Mock-Up
-![](assets/images/06-server-side-apis-homework-demo.png)
-
-## Technologies Use
-<p><a href="https://openweathermap.org/">OpenWeather API</a></p>
-<p><a href="https://getbootstrap.com/">Bootstrap</a></p>
+![Screenshot](assets/images/screenshot.png)
 
 
-## Contributor:
-Sylvia Prabudy ©2020 All Rights Reserved.
-- - -
+This Weather Dashboard is a web application that allows users to search for weather forecasts in various cities. It provides current weather conditions as well as a 5-day forecast.
+
+## Table of Contents
+1. [Features](#features)
+2. [How to Use](#how-to-use)
+3. [Technologies](#technologies)
+4. [Setup](#setup)
+5. [Contributing](#contributing)
+
+## Features
+
+- **Current Weather Conditions**: Displays temperature, humidity, wind speed, and UV index for the selected city.
+- **5-Day Forecast**: Shows the weather forecast for the next five days.
+- **Search History**: Keeps a history of searched cities for quick access.
+- **Responsive Design**: Works well on various devices and screen sizes.
+
+## How to Use
+
+- Enter a city name in the search box and click the search button.
+- View the current weather conditions and the 5-day forecast.
+- Click on a city in the search history to quickly view its weather again.
+
+## Technologies
+
+- HTML/CSS for layout and styling.
+- JavaScript for dynamic content and API requests.
+- [Bootstrap](https://getbootstrap.com/) for responsive design.
+- [Axios](https://github.com/axios/axios) for API requests.
+- [OpenWeather API](https://openweathermap.org/api) for weather data.
+
+## Setup
+
+To set up the Weather Dashboard on your local machine:
+1. Clone the repository.
+2. Open `index.html` in a web browser.
+
+## Contributing
+
+Contributions to the Weather Dashboard are welcome. Please fork the repository and submit a pull request with your changes.
 
